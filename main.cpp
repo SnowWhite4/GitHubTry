@@ -1,7 +1,8 @@
 #include <iostream>
 int main()
 {
-	int cout = 0;
-	std::cout << "Hello, world!";
+	int c = 0;
+	c += 80;
+	std::cout << "Hello, world!" << c;
 	return 0;
 }
